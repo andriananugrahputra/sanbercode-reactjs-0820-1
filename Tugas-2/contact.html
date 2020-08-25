@@ -1,1 +1,63 @@
-<a href="index.html">Kembali Ke Index</a>
+<html>
+    <head>
+        <link href="public/css/style.css" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
+        <style>
+            .col-25 {
+                float: left;
+                width: 25%;
+                margin-top: 6px;
+            }
+
+            .col-75 {
+                float: left;
+                width: 75%;
+                margin-top: 6px;
+            }
+        </style>
+    </head>
+    <body>
+        <section>
+            <h1>Hubungi Kami</h1>
+            <p><b>Kantor: </b>di jalan belum jadi</p>
+            <p><b>Nomor Telepon:  </b>08XX-XXXX-XXXX</p>
+            <p><b>Email: </b>email@contoh.com</p>
+
+            <h1>Kirimkan Pesan</h1>
+
+            <div class="col-25">
+                <b>Nama</b>
+            </div>
+            <div class="col-75">
+                <input type="text">
+            </div>
+
+            <div class="col-25">
+                <b>Email</b>
+            </div>
+            <div class="col-75">
+                <input type="text">
+            </div>
+
+            <div class="col-25">
+                <b>Jenis Kelamin</b>
+            </div>
+            <div class="col-75">
+                <input type="radio" name="gender">
+                <label for="male">Laki-laki</label><br>
+                <input type="radio" name="gender">
+                <label for="female">Perempuan</label><br>
+            </div>
+
+            <div class="col-25">
+                <b>Pesan Anda</b>
+            </div>
+            <div class="col-75">
+                <textarea style="height: 100px; width: 300px;"></textarea>
+            </div>
+
+            <input type="submit" value="Kirim">
+            <a href="index.html" style="float: right;">Kembali Ke Index</a>
+        </section>
+    </body>
+</html>
