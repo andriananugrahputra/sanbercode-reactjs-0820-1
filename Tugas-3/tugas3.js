@@ -4,7 +4,7 @@ var kataKedua = "senang";
 var kataKetiga = "belajar";
 var kataKeempat = "javascript";
 
-var gabungKata = kataPertama + ' ' + kataKedua + ' ' + kataKetiga + ' ' + kataKeempat.toUpperCase();
+var gabungKata = kataPertama + ' ' + (kataKedua.charAt(0)).toUpperCase() + kataKedua.substr(1) + ' ' + kataKetiga + ' ' + kataKeempat.toUpperCase();
 
 console.log(gabungKata);
 // --------------------------------------
