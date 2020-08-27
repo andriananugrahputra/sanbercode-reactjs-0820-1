@@ -52,15 +52,16 @@ for(i = 1; i <= n; i++) {
 // SOAL NO 3 {MASIH BINGUNG}
 var i;
 var j;
-var rows = 9;
+var rows = 7;
+var pattern = "";
 
 for (i = 1; i <= rows; i++) {
     for (j = 1; j <= i; j++) {
-        console.log("#");
+        pattern += "#";
     }
-    console.log("\n");
+    pattern += "\n";
 }
-
+console.log(pattern);
 // ---------------------------------------
 
 // SOAL NO 4
