@@ -49,14 +49,33 @@ for(i = 1; i <= n; i++) {
 }
 // ---------------------------------------
 
-// SOAL NO 3
+// SOAL NO 3 {MASIH BINGUNG}
+var i;
+var j;
+var rows = 9;
+
+for (i = 1; i <= rows; i++) {
+    for (j = 1; j <= i; j++) {
+        console.log("#");
+    }
+    console.log("\n");
+}
 
 // ---------------------------------------
 
 // SOAL NO 4
-
+var kalimat="saya sangat senang belajar javascript"
+var str_split = kalimat.split(" ");
+console.log(str_split);
 // ---------------------------------------
 
 // SOAL NO 5
+var daftarBuah = ["2. Apel", "5. Jeruk", "3. Anggur", "4. Semangka", "1. Mangga"];
+var str_sort = daftarBuah.sort();
 
+var i;
+
+for(i = 0; i < str_sort.length; i++){
+    console.log(str_sort[i]);
+}
 // ---------------------------------------
