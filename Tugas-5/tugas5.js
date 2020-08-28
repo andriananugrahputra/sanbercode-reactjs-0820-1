@@ -94,10 +94,11 @@ function add_film(val_name, val_duration, val_genre, val_year) {
 		nama: val_name,
 		durasi: val_duration,
 		genre: val_genre,
-		tahun: val_year,
+		tahun: val_year
 	});
 }
 
-add_film("Tilik", "32 menit", "Drama", "2018");
-console.log(dataFilm);
+add_film("Tilik", 32, "Drama", 2018);
+add_film("Whiplash", 107, "Musical-prodigy", 2014);
+console.log(dataFilm[1]);
 // -----------------------------
