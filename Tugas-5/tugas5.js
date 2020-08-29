@@ -60,25 +60,25 @@ var fruits = [
 	{
 		nama : 'strawberry',
 		warna : 'merah',
-		ada_bijinya : 'tidak',
+		ada_bijinya : false,
 		harga : 9000
 	},
 	{
 		nama : 'jeruk',
 		warna : 'oranye',
-		ada_bijinya : 'ada',
+		ada_bijinya : true,
 		harga : 8000
 	},
 	{
 		nama: 'Semangka',
 		warna: 'Hijau & Merah',
-		ada_bijinya : 'ada',
+		ada_bijinya : true,
 		harga: 10000
 	},
 	{
 		nama: 'Pisang',
 		warna: 'Kuning',
-		ada_bijinya: 'tidak',
+		ada_bijinya: false,
 		harga: 5000
 	}
 ];
