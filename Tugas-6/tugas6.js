@@ -16,7 +16,14 @@ console.log(keliling_lingkaran(17));
 // -----------------------------------------
 
 // SOAL NO 2
+let kalimat ="";
 
+var str_kalimat = (kata_1, kata_2, kata_3, kata_4, kata_5) => {
+  kalimat = `${kata_1} ${kata_2} ${kata_3} ${kata_4} ${kata_5}`;
+}
+
+str_kalimat("saya","adalah","seorang","frontend","developer");
+console.log(kalimat);
 // -----------------------------------------
 
 // SOAL NO 3
