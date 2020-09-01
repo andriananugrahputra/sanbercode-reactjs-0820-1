@@ -18,22 +18,47 @@ console.log(keliling_lingkaran(17));
 // SOAL NO 2
 let kalimat ="";
 
-var str_kalimat = (kata_1, kata_2, kata_3, kata_4, kata_5) => {
-  kalimat = `${kata_1} ${kata_2} ${kata_3} ${kata_4} ${kata_5}`;
+const str_kalimat = (...kata) => {
+	for(let i=0; i < kata.length; i++){
+		kalimat += `${kata[i]} `
+	}
 }
-
 str_kalimat("saya","adalah","seorang","frontend","developer");
 console.log(kalimat);
+
 // -----------------------------------------
 
 // SOAL NO 3
-
+const funLiteral = (firstName, lastName) => {
+    return {
+        firstName,
+        lastName,
+        fullName() {
+            console.log(`${firstName} ${lastName}`)
+        }
+    };
+}
+funLiteral('William', 'Imoh').fullName();
 // -----------------------------------------
 
 // SOAL NO 4
+const newObject = {
+	firstName: "Harry",
+	lastName: "Potter Holt",
+	destination: "Hogwarts React Conf",
+	occupation: "Deve-wizard Avocado",
+	spell: "Vimulus Renderus!!!"
+}
 
+const {firstName, lastName, destination, occupation, spell} = newObject;
+console.log(firstName, lastName, destination, occupation);
 // -----------------------------------------
 
 // SOAL NO 5
+const west = ["Will", "Chris", "Sam", "Holly"];
+const east = ["Gill", "Brian", "Noel", "Maggie"];
+const combined = [...west, ...east];
 
+//Driver Code
+console.log(combined)
 // -----------------------------------------
